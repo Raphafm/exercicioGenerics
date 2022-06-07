@@ -5,7 +5,7 @@ import java.util.List;
 public class App 
 {
     public static void main( String[] args ) {
-        String[] arrayNomes = {"Raphael", "Felipe", "Carlos", "Ana"};
+        String[] arrayNomes = {"Raphael", "Felipe", "Carlos", "Roberto", "Antonio", "Erick"};
         List<String> listaNomes = MyOwnLists.asListedSorted(arrayNomes, String::compareTo);
         for (String listaNome : listaNomes) {
             System.out.println(listaNome);
